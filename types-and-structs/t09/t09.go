@@ -19,4 +19,7 @@ func main() {
 
 	var something2 dynamic = "Uepa"
 	fmt.Println(something2)
+
+	something2 = course{"Golang: Exploring the Google language!"}
+	fmt.Println(something2)
 }
