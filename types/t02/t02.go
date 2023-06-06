@@ -23,9 +23,9 @@ func main() {
 	order := order{
 		customerID: 1,
 		products: []product{
-			product{productID: 1, quantity: 2, price: 12.10},
-			product{2, 1, 23.49},
-			product{11, 100, 3.13},
+			{productID: 1, quantity: 2, price: 12.10},
+			{2, 1, 23.49},
+			{11, 100, 3.13},
 		},
 	}
 	fmt.Printf("The total value of the order is $ %.2f", order.totalValue())
